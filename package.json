@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "express": "^4.18.2",
+    "node-addon-api": "^5.1.0"
+  },
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean",
+    "start": "node server.js"
+  },
+  "name": "test",
+  "version": "1.0.0",
+  "main": "server.js",
+  "gypfile": true,
+  "keywords": [],
+  "author": "Lemar98",
+  "license": "ISC",
+  "description": "test"
+}

@@ -1,0 +1,34 @@
+body {
+	background-image: linear-gradient(to bottom, #9cf7b0, #4cd486);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	color: #333;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin-top: 50px;
+}
+
+h1:hover {
+	color: #00FF23;
+}
+
+button {
+  border: none;
+  text-transform: uppercase;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  background-color: #4cd486;
+  color: #ffffff;
+  padding: 10px 135px;
+  margin-top: 5px;
+}
+
+button:hover {
+	background-color: #145A32;
+}
